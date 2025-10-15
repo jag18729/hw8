@@ -58,14 +58,14 @@ h3 {
 }
 
 .column-narrow {
-    width: 30%;
+    width: 25%;
     float: left;
     padding-right: 3%;
     min-height: 175px;
 }
 
 .column-wide {
-    width: 70%;
+    width: 72%;
     float: left;
     min-height: 225px;
 }
@@ -171,8 +171,8 @@ a:focus {
 }
 
 .profile-img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
