@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael J. Garcia | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-wrapper">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+            <a href="resume.pdf" download>Download PDF</a>
+        </div>
+    </nav>
+    <!-- // Intro -->
+    <header class="resume-header" id="about">
+        <div class="content-wrap">
+            <img src="images/rafael-garcia.jpg" alt="Portrait of Rafael J. Garcia" class="profile-img column-narrow">
+            <div class="column-wide">
+                <h1>Rafael J. Garcia</h1>
+                <h2>Network Development Engineer</h2>
+                <p>Network engineer with 15+ years of experience designing resilient infrastructure, delivering large-scale migrations, and leading automation initiatives for NASA JPL and enterprise clients.</p>
+                <p class="header-links">
+                    <a href="mailto:rjgarcia.0.100@outlook.com">rjgarcia.0.100@outlook.com</a>
+                    <span>&bull;</span>
+                    <a href="https://www.linkedin.com/in/rafael-garcia-835aa1120/" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <span>&bull;</span>
+                    <a href="https://github.com/jag18729" target="_blank" rel="noreferrer">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    <main> 
+        <!-- // Work Experience -->
+        <section class="work-experience" id="experience">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+
+            <article>
+                <div class="column-narrow">
+                    <h3>Network Development Engineer</h3>
+                    <p class="employer">NASA Jet Propulsion Laboratory (MORI Associates)</p>
+                    <p class="duration">2021 &ndash; 2025</p>
+                </div>
+                <div class="column-wide">
+                    <p>Own network automation and modernization for the Deep Space Network. Lead cross-functional teams to deliver high-availability solutions supporting mission-critical communications.</p>
+                    <p>Highlights:</p>
+                    <ul>
+                        <li>Migrated 1,000+ DNS zones from BIND to Infoblox with zero downtime.</li>
+                        <li>Reduced incident volume by 40% through proactive telemetry and alerting.</li>
+                        <li>Designed multi-cloud connectivity using AWS, Azure, and secure VPN tunnels.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <div class="column-narrow">
+                    <h3>Network Administrator / Communications Chief</h3>
+                    <p class="employer">United States Marine Corps</p>
+                    <p class="duration">May 2012 &ndash; January 2020</p>
+                </div>
+                <div class="column-wide">
+                    <p>Directed tactical communications and enterprise networking across multi-site deployments. Balanced mission readiness, cybersecurity compliance, and field operations for classified environments.</p>
+                    <p>Highlights:</p>
+                    <ul>
+                        <li>Configured and troubleshot cryptographic systems securing global data transmission.</li>
+                        <li>Engineered LOS, troposcatter, and satellite links to sustain 99.999% uptime.</li>
+                        <li>Designed wireless architecture and site plans for rapid-deployment operations.</li>
+                        <li>Implemented hardened network security protocols that achieved 100% compliance.</li>
+                        <li>Coordinated CEOI development and administered data networks for 25+ missions with zero communication failures.</li>
+                        <li>Trained and mentored more than 200 Marines in network operations and cybersecurity best practices.</li>
+                        <li>Recognized with the Navy Achievement Medal for exceptional technical leadership.</li>
+                    </ul>
+                </div>
+            </article>
+            </div>
+        </section>
+
+
+        <!-- // Education -->
+        <section class="education" id="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+            <article>
+                <h3>California State University, Northridge</h3>
+                <p class="duration">B.S. Computer Information Technology &bull; 2024</p>
+                <p>Coursework emphasized cloud infrastructure, network security, and systems automation. Capstone focused on building observability pipelines for enterprise networks.</p>
+            </article>
+            </div>
+        </section>
+
+        <!-- // Certifications -->
+        <section class="certifications" id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Cisco Certified Network Associate (CCNA)</li>
+                <li>AWS Academy Cloud Architecting</li>
+                <li>CompTIA Security+, Network+, and A+</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer class="site-footer" id="contact">
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:rjgarcia.0.100@outlook.com"><i class="fas fa-envelope"></i> rjgarcia.0.100@outlook.com</a>
+                <a href="https://www.linkedin.com/in/rafael-garcia-835aa1120/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/jag18729" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+
+            <p>&copy; <span id="current-year">2024</span> Rafael J. Garcia. Built with purpose in Los Angeles, CA.</p>
+        </div>
+    </footer>
+    <script>
+        // Update year automatically to keep footer current.
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
