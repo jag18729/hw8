@@ -295,6 +295,25 @@ a:focus {
 }
 
 
+/* Key Achievements
+------------------------------------*/
+.key-achievements {
+    background-color: #415A77;
+    color: #E0E1DD;
+    box-shadow: 0 18px 40px rgba(27, 38, 59, 0.2);
+}
+
+.key-achievements ul {
+    margin-left: 1.25rem;
+}
+
+.key-achievements li {
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+
 /* Certifications
 ------------------------------------*/
 .certifications {
@@ -311,6 +330,36 @@ a:focus {
 .certifications li {
     margin-bottom: 0.5rem;
     font-weight: 500;
+}
+
+
+/* Technical Skills
+------------------------------------*/
+.technical-skills {
+    background-color: #1B263B;
+    color: #E0E1DD;
+    box-shadow: 0 18px 40px rgba(27, 38, 59, 0.25);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+.skill-category h3 {
+    color: #778DA9;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #415A77;
+    padding-bottom: 0.35rem;
+}
+
+.skill-category p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0;
 }
 
 
